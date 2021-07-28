@@ -16,8 +16,7 @@ def _parse_args():
         'parameter', help='参数文件路径, eg: test-data/parameter.json')
     return parser.parse_args()
 
-
-if __name__ == '__main__':
+def _main():
     args = _parse_args()
     template_path = args.template
     parameter_path = args.parameter
@@ -35,3 +34,7 @@ if __name__ == '__main__':
         return template.render(data=parameter)
 
     app.run(debug=True)
+
+
+if __name__ == '__main__':
+    _main()
