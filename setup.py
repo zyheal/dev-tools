@@ -7,14 +7,14 @@ setuptools.setup(
     name='dev_tools',
     version='0.0.2',  # 本版本可以不进行更新
     author='Daryl.Xu',
-    author_email='xuziqiang@zyheal.com',
+    author_email='ziqiang_xu@qq.com',
     description='General dev_tools written in Python',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/passer-team/dev-tools',
     project_urls={
-        'HomePage': 'https://github.com/passer-team/dev-tools',
-        'Bug Report': 'https://github.com/passer-team/dev-tools/issues/new'
+        'Bug Report': 'https://github.com/passer-team/dev-tools/issues/new',
+        '报告问题': 'https://gitee.com/passer-team/dev-tools/issues'
     },
     license='MIT',
     platforms=['Linux', 'Windows', 'MacOs'],
