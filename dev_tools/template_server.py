@@ -8,7 +8,7 @@ from jinja2 import Template
 
 
 def _parse_args():
-    parser = argparse.ArgumentParser(prog='template_server',
+    parser = argparse.ArgumentParser(prog='passer_template_server',
                                      description='模板开发工具')
     parser.add_argument(
         'template', help='模板文件路径, eg: test-data/src/template.html')
