@@ -5,4 +5,4 @@ Development tools written in Python.
 
 ## 模块
 
-- `template_server -h`
+- `passer_template_server -h` or `pts -h`, `pts` is a shortcut
