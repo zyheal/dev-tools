@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='dev_tools',
-    version='0.0.2',  # 本版本可以不进行更新
+    version='0.0.3',  # 本版本可以不进行更新
     author='Daryl.Xu',
     author_email='ziqiang_xu@qq.com',
     description='General dev_tools written in Python',
